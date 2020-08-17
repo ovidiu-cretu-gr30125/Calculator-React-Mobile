@@ -19,6 +19,12 @@
   font-family: "Comic Sans MS", serif;
 }
 #h1{
+  width: 500px;
+  height: 60px;
+  background-image: url("ClipartKey_2783339.png");
+  background-repeat: no-repeat;
+  background-position: revert;
+  background-size: 50px 50px;
   text-align: center;
   color: white;
   font-family: "Comic Sans MS", serif;
@@ -46,26 +52,40 @@ button:hover {
 
 body{
   background-image:
-          url("pngwing.com.png"),
-          url("PngItem_5331595.png"),
-          url("ClipartKey_2783339.png"),
           url("unnamed.png");
   background-position:
-          725px 500px,
-          1000px 515px,
-          735px 25px,
           center;
   background-repeat:
-          no-repeat,
-          no-repeat,
-          no-repeat,
           repeat;
   background-size:
-          250px 250px,
-          100px 100px,
-          50px 50px,
           auto;
-    margin: auto;
+}
+.img2{
+  width: 200px;
+  height: 200px;
+  background-image:
+          url("pngwing.com.png");
+  background-repeat:
+          no-repeat;
+  background-size:
+          200px 200px;
+  background-position:
+          left;
+  animation: rotation 10s linear infinite;
+  }
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.linear {
+  animation-timing-function: linear;
+}
+.infinite {
+  animation-iteration-count: infinite;
 }
 footer{
   color: white;

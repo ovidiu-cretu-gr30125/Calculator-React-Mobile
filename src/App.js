@@ -55,7 +55,7 @@ class App extends Component {
 
 
   calculate = () => {
-    var checkResult = ''
+    let checkResult ;
     if(this.state.result.includes('--')){
       checkResult = this.state.result.replace('--','+')
     }
@@ -93,7 +93,6 @@ class App extends Component {
         result: this.state.result.slice(0, -1)
       })
     }
-    ;
   }
 
   render() {
@@ -104,6 +103,7 @@ class App extends Component {
             <Result result={this.state.result}/>
             <KeyPad onClick={this.onClick}/>
             <footer> <small>&copy; Copyright 2020, Cretu Ovidiu-Daniel</small> </footer>
+           <div className="img2" />
           </div>
         </div>
     );
