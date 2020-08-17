@@ -1,38 +1,74 @@
-.App {
+.result {
+  height: 60px;
+  background-color: #bbb;
+  width: 100%;
+  opacity: 0.5;
+}
+
+.result p {
+  font-size: 40px;
+  margin: 5px;
+
+}
+
+.calculator-body {
+  max-width: 500px;
+  max-height: 1000px;
+  margin: auto;
+  text-align: right;
+  font-family: "Comic Sans MS", serif;
+}
+#h1{
   text-align: center;
+  color: white;
+  font-family: "Comic Sans MS", serif;
+}
+.button {
+  display: block;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+  width: 25%;
+  height: 60px;
+  font-size: 30px;
+  font-family: "Comic Sans MS", serif;
+  background-color: dimgray;
+  opacity: 0.6;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  color: black;
+  border: 2px solid black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button:hover {
+  background-color: #555555;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+body{
+  background-image:
+          url("pngwing.com.png"),
+          url("PngItem_5331595.png"),
+          url("ClipartKey_2783339.png"),
+          url("unnamed.png");
+  background-position:
+          725px 500px,
+          1000px 515px,
+          735px 25px,
+          center;
+  background-repeat:
+          no-repeat,
+          no-repeat,
+          no-repeat,
+          repeat;
+  background-size:
+          250px 250px,
+          100px 100px,
+          50px 50px,
+          auto;
+}
+footer{
+  color: white;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
