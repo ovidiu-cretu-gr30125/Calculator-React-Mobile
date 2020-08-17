@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "85107333122eae5233f0a2b70060000e",
+    "revision": "6d10eaaf2b9b71e6b1f60c3370d61929",
     "url": "/Calculator-React-Mobile/index.html"
   },
   {
-    "revision": "7a32832d22a94a3b1ec4",
-    "url": "/Calculator-React-Mobile/static/css/main.937914b4.chunk.css"
+    "revision": "11706a3692683dc2c96c",
+    "url": "/Calculator-React-Mobile/static/css/main.3d4bdea0.chunk.css"
   },
   {
     "revision": "114bbaea14242877659e",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Calculator-React-Mobile/static/js/2.6912228e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7a32832d22a94a3b1ec4",
-    "url": "/Calculator-React-Mobile/static/js/main.de7f798e.chunk.js"
+    "revision": "11706a3692683dc2c96c",
+    "url": "/Calculator-React-Mobile/static/js/main.e354a8ea.chunk.js"
   },
   {
     "revision": "0d2425bc17fd3e607404",
@@ -26,10 +26,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dd857e7b06acf30c32e43350fcd82ca3",
     "url": "/Calculator-React-Mobile/static/media/ClipartKey_2783339.dd857e7b.png"
-  },
-  {
-    "revision": "c831d3934deff2c1ca0c3d642eb39ba6",
-    "url": "/Calculator-React-Mobile/static/media/PngItem_5331595.c831d393.png"
   },
   {
     "revision": "c32d16ecc826e0d3ffd2fc97fe70afa3",
